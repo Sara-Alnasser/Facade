@@ -15,7 +15,7 @@ namespace FacadeDesgin
         }
 
       
-        public string Operation()
+        public string Paint()
         {
             string result = "Drawing subsystems:\n";
             result += this._Cirecle.drawCirecle();
@@ -60,7 +60,7 @@ namespace FacadeDesgin
        
         public static void ClientCode(Facade facade)
         {
-            Console.Write(facade.Operation());
+            Console.Write(facade.Paint());
         }
     }
 
